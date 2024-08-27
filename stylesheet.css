@@ -160,3 +160,77 @@ li {
         background-position: 0% 50%;
     }
 }
+
+body {
+    background-color: rgb(30, 32, 30);
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(236, 223, 204);
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+.dice {
+    display: inline-block;
+}
+
+.img {
+    width: 60%;
+}
+
+.center {
+    display: grid;
+    justify-content: center;
+}
+
+.button1 {
+    background-color: rgb(236, 223, 204);
+    color: rgb(30, 32, 30);
+    padding: 15px 100px;
+    margin-top: 5rem;
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 0.1s;
+    font: inherit;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.button1:hover {
+    background-color: rgb(30, 32, 30);
+    color: rgb(236, 223, 204);
+}
+
+.button1:active {
+    background-color: rgb(236, 223, 204);
+    box-shadow: 0 5px #666;
+    color: rgb(30, 32, 30);
+}
+
+.p1 {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(236, 223, 204);
+    font-size: 2rem;
+}
+
+.game {
+    background-color: rgb(254, 216, 177);
+}
+
+a {
+    color: rgb(166, 123, 91);
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Nerko One", cursive;
+}
